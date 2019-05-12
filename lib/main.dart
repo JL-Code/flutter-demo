@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './views/todos/Todo.dart';
+import './views/Index.dart';
 
 void main() => runApp(App());
 
@@ -9,6 +9,6 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // return MaterialApp(home: new HomeView());
-    return MaterialApp(home: new TodoView());
+    return MaterialApp(home: new Index());
   }
 }
